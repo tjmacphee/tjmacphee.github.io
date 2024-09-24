@@ -16,12 +16,75 @@
   }
 }
 
+::selection {
+  color: rgb(19 78 74);
+  background: #33E1ED;
+}
+
+html { 
+  background-color: rgb(15 23 42);
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(148 163 184);
+}
+
+.experience-link:hover h3 {
+  color: #33E1ED;
+  transition: 0.3s ease;
+}
+
+h3 .experience-link:hover {
+  color: #33E1ED;
+  transition: 0.3s ease;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  color: rgb(226 232 240);
+}
+
+h1, h2, h3, h4, h5, h6, .experience { 
+  line-height: normal;
+}
+
+/* Custom CSS for navigation link animations */
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-left: 0.5rem;
+  transition: padding-left 0.3s ease;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  top: 0; /* Position the line to the left, starting at the top */
+  left: 0; /* Align it to the left of the link */
+  height: 100%; /* Make the line full height */
+  width: 2px; /* Set the width of the line */
+  background-color: #FFFFFF; /* Use your desired color */
+  transform: scaleY(0); /* Initially scale to zero vertically */
+  transform-origin: top; /* Animate from the top down */
+  transition: transform 0.3s ease, padding-left 0.3s ease;
+}
+
+.nav-link:hover {
+  padding-left: 1rem;
+}
+
+/* Hover and active state */
+.nav-link:hover::before,
+.nav-link.active::before {
+  transform: scaleY(1); /* Scale the line fully when active or hovered */
+}
+
+.nav-link.active {
+  color: rgb(226 232 240);
+  padding-left: 1rem;
+}
+
+span.badge {
+  background-color: #33E1ED20;
+  color: #33E1ED;
+  @apply text-xs rounded-full px-2 py-1;
 }
