@@ -3,6 +3,7 @@
 import { FaLinkedin, FaGithub, FaYoutube, FaExternalLinkAlt } from 'react-icons/fa'
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
+import Script from 'next/script'
 
 export default function Home() {
   const [activeLink, setActiveLink] = useState('#about');
@@ -59,7 +60,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background-color py-8 flex justify-center">
 
-      <script src="/versionfile.js?v=1"></script>
+      <Script src="/versionfile.js?v=1" strategy="afterInteractive" />
 
       <div className="max-w-7xl w-full flex px-4 lg:px-12">
         <aside className="hidden lg:flex flex-col w-2/5 items-start p-8 fixed h-full overflow-y-auto">
