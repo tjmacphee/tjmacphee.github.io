@@ -35,10 +35,10 @@ export default function Home() {
       });
     }, options);
 
-    sections.forEach((section) => {
-      observer.observe(section);
-    });
+    // Observe each section
+    sections.forEach((section) => observer.observe(section));
 
+    // Handle initial scroll state when page loads
     const handleInitialScroll = () => {
       sections.forEach((section) => {
         const { top } = section.getBoundingClientRect();
@@ -48,19 +48,19 @@ export default function Home() {
       });
     };
 
-    handleInitialScroll();
+    setTimeout(handleInitialScroll, 100);
 
-    window.addEventListener('scroll', handleInitialScroll);
+    // Cleanup the observer on component unmount
     return () => {
-      window.removeEventListener('scroll', handleInitialScroll);
-      sections.forEach((section) => {
-        observer.unobserve(section);
-      });
+      sections.forEach((section) => observer.unobserve(section));
     };
   }, []);
 
   return (
     <main className="min-h-screen bg-background-color py-8 flex justify-center">
+
+      <script src="/versionfile.js?v=1"></script>
+
       <div className="max-w-7xl w-full flex px-4 lg:px-12">
         <aside className="hidden lg:flex flex-col w-2/5 items-start p-8 fixed h-full overflow-y-auto">
           <div className="mb-12">
