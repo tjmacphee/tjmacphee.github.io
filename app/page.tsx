@@ -154,7 +154,7 @@ export default function Home() {
                 </p>
                 <p className="text-lg">
                   I believe that the balance between my work and hobbies helps me stay motivated and inspired. 
-                  I’m eager to continue growing as a software engineer, bringing my passion for technology and my love for adventure into everything I do.
+                  I&rsquo;m eager to continue growing as a software engineer, bringing my passion for technology and my love for adventure into everything I do.
                 </p>
               </div>
             </section>
@@ -327,7 +327,7 @@ export default function Home() {
                     <a className="experience-link" href="https://www.youtube.com/watch?v=uPMg_eoSrVQ" target="_blank"><FaYoutube className="ml-4 text-sm" /></a>
                   </h3>
                   <p className="mt-2 font-light">
-                    Used Python's OpenCV and scikit-image for image and video segmentation. Applied YOLOv3 for face and object detection, achieving 90% accuracy in various environments, very useful for surveillance systems.
+                    Used Python&apos;s OpenCV and scikit-image for image and video segmentation. Applied YOLOv3 for face and object detection, achieving 90% accuracy in various environments, very useful for surveillance systems.
                   </p>
                 </div>
 
@@ -353,7 +353,7 @@ export default function Home() {
                     <a className="experience-link" href="https://github.com/tjmacphee/sysmonitor/tree/dev" target="_blank"><FaGithub className="ml-4 text-sm" /></a>
                   </h3>
                   <p className="mt-2 font-light">
-                    Developing a Windows app in C++ with GTKMM and Blade for a minimalist system status view. This project aims to replicate Task Manager’s core functions with a streamlined interface.
+                    Developing a Windows app in C++ with GTKMM and Blade for a minimalist system status view. This project aims to replicate Task Manager&apos;s core functions with a streamlined interface.
                   </p>
                 </div>
               </div>
