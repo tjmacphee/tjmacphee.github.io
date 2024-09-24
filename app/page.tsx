@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function Home() {
   const [activeLink, setActiveLink] = useState('#about');
 
-  const handleSetActive = (link) => {
+  const handleSetActive = (link: string) => {
     setActiveLink(link);
     const section = document.querySelector(link);
     if (section) {
