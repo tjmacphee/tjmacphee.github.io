@@ -16,12 +16,30 @@
   }
 }
 
+::selection {
+  color: rgb(19 78 74);
+  background: #33E1ED;
+}
+
+html { 
+  background-color: rgb(15 23 42);
+}
+
 body {
   color: rgb(148 163 184);
 }
 
+.experience-link:hover h3 {
+  color: #33E1ED;
+  transition: 0.3s ease;
+}
+
 h1, h2, h3, h4, h5, h6 { 
   color: rgb(226 232 240);
+}
+
+h1, h2, h3, h4, h5, h6, .experience { 
+  line-height: normal;
 }
 
 /* Custom CSS for navigation link animations */
@@ -56,6 +74,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link.active {
+  color: rgb(226 232 240);
   padding-left: 1rem;
 }
 
+span.badge {
+  background-color: #33E1ED20;
+  color: #33E1ED;
+  @apply text-xs rounded-full px-2 py-1;
+}
