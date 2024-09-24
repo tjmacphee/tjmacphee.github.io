@@ -34,6 +34,11 @@ body {
   transition: 0.3s ease;
 }
 
+h3 .experience-link:hover {
+  color: #33E1ED;
+  transition: 0.3s ease;
+}
+
 h1, h2, h3, h4, h5, h6 { 
   color: rgb(226 232 240);
 }
