@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         'background-color': 'rgb(15 23 42)',
         'primary': '#2D2D44',
-        'secondary': '#33E1ED'
+        'secondary': '#33E1ED',
+        'white': 'rgb(226 232 240)'
       }
     },
   },

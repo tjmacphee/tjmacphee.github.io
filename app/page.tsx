@@ -1,6 +1,6 @@
 "use client";
 
-import { FaLinkedin, FaGithub, FaYoutube, FaExternalLinkAlt } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaYoutube, FaExternalLinkAlt, FaDownload } from 'react-icons/fa'
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Script from 'next/script'
@@ -60,7 +60,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background-color py-8 flex justify-center">
 
-      <Script src="/versionfile.js?v=1" strategy="afterInteractive" />
+      <Script src="/versionfile.js?v=1.2" strategy="afterInteractive" />
 
       <div className="max-w-7xl w-full flex px-4 lg:px-12">
         <aside className="hidden lg:flex flex-col w-2/5 items-start p-8 fixed h-full overflow-y-auto">
@@ -143,9 +143,9 @@ export default function Home() {
               <h2 className="lg:hidden text-2xl font-semibold mb-6">About</h2>
               <div className="">
                 <p className="text-lg mb-4">
-                  With three years of experience as a software developer, I specialize in full-stack development a wide range of technologies. 
+                  With three years of experience as a software developer, I specialize in full-stack development and a wide range of technologies. 
                   My work has primarily focused on digitizing the construction industry, particularly within the asphalt sector. 
-                  Before stepping into my current role as a senior software engineer, I successfully planned and managed multiple large-scale releases. 
+                  Before stepping into my current role as a senior software engineer, I successfully planned and managed multiple large-scale releases for SOP. 
                   I pride myself on my problem-solving abilities, critical thinking, adaptability, leadership, and communication skills. 
                 </p>
                 <p className="text-lg mb-4">
@@ -185,7 +185,7 @@ export default function Home() {
                       Revamped the marketing site, boosting user engagement and lead generation by 30%.
                     </p>
                     <p className="text-left mt-2">
-                      Added multi-user features to improve customer support efficiency and enhanced Azure Bicep templating.
+                      Added multi-user features to improve customer support efficiency and enhanced Azure Bicep templating for a cleaner management on services & SKUs.
                     </p>
                   </div>
                   <div className="flex flex-wrap gap-2 mt-2">
@@ -220,10 +220,10 @@ export default function Home() {
                       <hr className="flex-grow" />
                     </div>
                     <p className="text-left mt-2">
-                      Defined new workflows and contributed over 50% of the codebase for the project.
+                      Defined new sprint cycles, workflows and contributed over 50% of the codebase for the project along with defining the core vision of the project & it&apos;s deliverables.
                     </p>
                     <p className="text-left mt-2">
-                      Increased departmental productivity with automation, and reorganized planning tools.
+                      Increased departmental productivity with automated report generation, notifications and reorganized planning tools.
                     </p>
                   </div>
                   <div className="flex flex-wrap gap-2 mt-2">
@@ -241,7 +241,7 @@ export default function Home() {
                   <p className="text-sm">Software Engineer (Contract)</p>
                   <p className="mt-2 font-light">
                     Led an FGCU student team to modernize a legacy system, reducing issues and abuse by 70% by
-                    incorporating more admin control, automated reports, security lockouts and notifications
+                    incorporating more admin control, automated reports, security lockouts and notifications.
                   </p>
                   <div className="mt-2 font-light text-center">
                     <div className="flex items-center">
@@ -250,10 +250,10 @@ export default function Home() {
                       <hr className="flex-grow" />
                     </div>
                     <p className="text-left mt-2">
-                      Delivered full-stack dev with React, nodemon, Python, and TypeScript.
+                      Delivered full-stack development with React, Nodemon, Python, and TypeScript along with Jira and Confluence management.
                     </p>
                     <p className="text-left mt-2">
-                      Implemented a secure AWS connection, and presented the final solution to the C-Suite, which remains in active use.
+                      Implemented an advanced AWS solution, and presented the final solution to the C-Suite, which remains in active use.
                     </p>
                   </div>
                   <div className="flex flex-wrap gap-2 mt-2">
@@ -272,7 +272,7 @@ export default function Home() {
                   <a className="experience-link" href="https://imagsystems.org/login" target="_blank"><h3 className="font-semibold inline-flex items-center">The IMAG<FaExternalLinkAlt className="ml-4 text-sm" /></h3></a>
                   <p className="text-sm">Full Stack Developer (Contract)</p>
                   <p className="mt-2 font-light">
-                    Consult with The IMAG team to help identify business needs/pain points for entering aquatics data
+                    Consult with The IMAG team to help identify business needs/pain points for entering aquatics data.
                   </p>
                   <div className="mt-2 font-light text-center">
                     <div className="flex items-center">
@@ -281,10 +281,10 @@ export default function Home() {
                       <hr className="flex-grow" />
                     </div>
                     <p className="text-left mt-2">
-                      Engineered a comprehensive web solution using SiteGround, PHP, and Laravel.
+                      Engineered a comprehensive web solution using SiteGround, PHP, and Laravel, along with dynamic CSV processing & alerts.
                     </p>
                     <p className="text-left mt-2">
-                      Increased departmental productivity with automation by an estimated 35%, and reorganized planning tools.
+                      Increased departmental productivity with automation by an estimated 35%, and reorganized planning tools for aquatics employees.
                     </p>
                   </div>
                   <div className="flex flex-wrap gap-2 mt-2">
@@ -296,7 +296,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <a className="experience-link whitespace-nowrap" href="/resume.pdf" download target="_blank"><h3 className="font-semibold inline-flex items-center">View Full Resume<FaExternalLinkAlt className="ml-4 text-sm" /></h3></a>
+                <a className="whitespace-nowrap bg-white rounded-lg p-2 w-fit" href="/resume.pdf" download="Resume - Tyler MacPhee" target="_blank"><h3 className="text-black font-semibold inline-flex items-center">View Full Resume<FaDownload className="ml-4 text-sm" /></h3></a>
               </div>
             </section>
 
