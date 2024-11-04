@@ -145,7 +145,7 @@ export default function Home() {
                 <p className="text-lg mb-4">
                   With three years of experience as a software developer, I specialize in full-stack development and a wide range of technologies. 
                   My work has primarily focused on digitizing the construction industry, particularly within the asphalt sector. 
-                  Before stepping into my current role as a senior software engineer, I successfully planned and managed multiple large-scale releases for SOP. 
+                  Before stepping into my current role as lead software engineer, I successfully planned and managed multiple large-scale releases for SOP. 
                   I pride myself on my problem-solving abilities, critical thinking, adaptability, leadership, and communication skills. 
                 </p>
                 <p className="text-lg mb-4">
@@ -167,7 +167,7 @@ export default function Home() {
                 <div></div>
                 <div className="pl-9">
                   <a className="experience-link" href="https://sopworks.com" target="_blank"><h3 className="font-semibold inline-flex items-center">Spot On Performance<FaExternalLinkAlt className="ml-4 text-sm" /></h3></a>
-                  <p className="text-sm">Senior Software Engineer / Project Manager</p>
+                  <p className="text-sm">Lead Software Engineer</p>
                   <p className="mt-2 font-light">
                     Led cross-functional teams to manage project risks, release software, and plan sprint cycles, driving the successful deployment of Infrastructure as Code (IaC) and enhancing customer relations.
                     Executed Agile releases, improved code quality, and implemented new processes for key performance metrics.
@@ -208,7 +208,7 @@ export default function Home() {
                 <div></div>
                 <div className="pl-9">
                   <a className="experience-link" href="https://www.stormsmart.com" target="_blank"><h3 className="font-semibold inline-flex items-center">Storm Smart<FaExternalLinkAlt className="ml-4 text-sm" /></h3></a>
-                  <p className="text-sm">Software Engineer (Contract)</p>
+                  <p className="text-sm">Software Engineer</p>
                   <p className="mt-2 font-light">
                     Re-engineered business systems and developed an automated web scraper to record price changes for
                     financial software using Python and Selenium.
@@ -238,7 +238,7 @@ export default function Home() {
                 <div></div>
                 <div className="pl-9">
                   <a className="experience-link" href="https://www.hertz.com/rentacar/reservation/" target="_blank"><h3 className="font-semibold inline-flex items-center">Hertz<FaExternalLinkAlt className="ml-4 text-sm" /></h3></a>
-                  <p className="text-sm">Software Engineer (Contract)</p>
+                  <p className="text-sm">Software Engineer</p>
                   <p className="mt-2 font-light">
                     Led an FGCU student team to modernize a legacy system, reducing issues and abuse by 70% by
                     incorporating more admin control, automated reports, security lockouts and notifications.
@@ -270,7 +270,7 @@ export default function Home() {
                 <div></div>
                 <div className="pl-9">
                   <a className="experience-link" href="https://imagsystems.org/login" target="_blank"><h3 className="font-semibold inline-flex items-center">The IMAG<FaExternalLinkAlt className="ml-4 text-sm" /></h3></a>
-                  <p className="text-sm">Full Stack Developer (Contract)</p>
+                  <p className="text-sm">Full Stack Developer</p>
                   <p className="mt-2 font-light">
                     Consult with The IMAG team to help identify business needs/pain points for entering aquatics data.
                   </p>
