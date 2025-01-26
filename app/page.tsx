@@ -143,9 +143,8 @@ export default function Home() {
               <h2 className="lg:hidden text-2xl font-semibold mb-6">About</h2>
               <div className="">
                 <p className="text-lg mb-4">
-                  With three years of experience as a software developer, I specialize in full-stack development and a wide range of technologies. 
-                  My work has primarily focused on digitizing the construction industry, particularly within the asphalt sector. 
-                  Before stepping into my current role as lead software engineer, I successfully planned and managed multiple large-scale releases for SOP. 
+                  With four years of experience as a software developer, I specialize in full-stack development and a wide range of technologies. 
+                  My work has touched multiple industries - from Constructions & Asphalt, to Defense & Space.
                   I pride myself on my problem-solving abilities, critical thinking, adaptability, leadership, and communication skills. 
                 </p>
                 <p className="text-lg mb-4">
@@ -163,7 +162,37 @@ export default function Home() {
             <section id="experience" className="experience mb-24">
               <h2 className="lg:hidden text-2xl font-semibold mb-6">Experience</h2>
               <div className="relative grid grid-cols-[20%_5%_75%] gap-y-16 pb-20">
-                <div className="text-left text-sm whitespace-nowrap">2021 - Present</div>
+
+                <div className="text-left text-sm whitespace-nowrap">2024 - Present</div>
+                <div></div>
+                <div className="pl-9">
+                  <a className="experience-link" href="https://astrion.us" target="_blank"><h3 className="font-semibold inline-flex items-center">Astrion<FaExternalLinkAlt className="ml-4 text-sm" /></h3></a>
+                  <p className="text-sm">Software Engineer</p>
+                  <p className="mt-2 font-light">
+                    Support mission critical software and develop new internal tools to expand the brand’s influence and market
+                    presence. Implement robust solutions and develop strategies for analyzing and acting on time-sensitive data
+                    within a system.
+                  </p>
+                  <div className="mt-2 font-light text-center">
+                    <div className="flex items-center justify-center">
+                      <hr className="flex-grow" />
+                      <span className="m-2 font-normal">Key Accomplishments</span>
+                      <hr className="flex-grow" />
+                    </div>
+                    <p className="text-left mt-2">
+                      To be documented...
+                    </p>
+                  </div>
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    <span className="badge text-xs">Java</span>
+                    <span className="badge text-xs">Maven</span>
+                    <span className="badge text-xs">Jenkins</span>
+                    <span className="badge text-xs">IaC</span>
+                    <span className="badge text-xs">Client Relations</span>
+                  </div>
+                </div>
+
+                <div className="text-left text-sm whitespace-nowrap">2021 - 2024</div>
                 <div></div>
                 <div className="pl-9">
                   <a className="experience-link" href="https://sopworks.com" target="_blank"><h3 className="font-semibold inline-flex items-center">Spot On Performance<FaExternalLinkAlt className="ml-4 text-sm" /></h3></a>
